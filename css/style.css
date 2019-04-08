@@ -1,0 +1,290 @@
+/* Delicious Fonts */
+@font-face {
+  font-family: whizkid;
+  src: url(../fonts/whizkid.ttf);
+}
+
+@font-face {
+  font-family: pcsenior;
+  src: url(../fonts/pcsenior.ttf);
+}
+
+@font-face {
+  font-family: computer_7;
+  src: url(../fonts/computer_7.ttf);
+}
+
+@font-face {
+  font-family: good_times_rg;
+  src: url(../fonts/good_times_rg.ttf);
+}
+
+@font-face {
+  font-family: BACKTO1982;
+  src: url(../fonts/BACKTO1982.TTF);
+}
+
+@font-face {
+  font-family: computer_pixel-7;
+  src: url(../fonts/computer_pixel-7.ttf);
+}
+
+@font-face {
+  font-family: ka1;
+  src: url(../fonts/ka1.ttf);
+}
+
+@font-face {
+  font-family: PAC-FONT;
+  src: url(../fonts/PAC-FONT.TTF);
+}
+
+@font-face {
+  font-family: Hardpixel;
+  src: url(../fonts/Hardpixel.OTF);
+}
+
+@font-face {
+  font-family: PressStart2P-Regular;
+  src: url(../fonts/PressStart2P-Regular.ttf);
+}
+
+@font-face {
+  font-family: ponde___;
+  src: url(../fonts/ponde___.ttf);
+}
+
+@font-face {
+  font-family: scream_when_youre_ready_to_die;
+  src: url(../fonts/scream_when_youre_ready_to_die.ttf);
+}
+
+@font-face {
+  font-family: stormfaze;
+  src: url(../fonts/stormfaze.ttf);
+}
+
+@font-face {
+  font-family: VIDEOPHREAK;
+  src: url(../fonts/VIDEOPHREAK.ttf);
+}
+
+@font-face {
+  font-family: ARCADECLASSIC;
+  src: url(../fonts/ARCADECLASSIC.TTF);
+}
+
+.top-container {
+  text-align: center;
+  background: url(../img/34815.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div#dosBoxx {
+  font-family: pcsenior;
+  background: rgb(0, 10, 0);
+  color: lightgreen;
+}
+
+div.link {
+  text-align: center;
+}
+
+div.cell {
+  padding: 1%;
+}
+
+span.blinky {
+  animation: blink 0.5s infinite alternate;
+  -webkit-animation: blink 0.5s  infinite alternate;
+  -moz-animation: blink 0.5s infinite alternate;
+  -o-animation: blink 0.5s infinite alternate;
+}
+
+div.history-container {
+    margin: 0 auto;
+    padding: 1%;
+    border-style: dashed;
+}
+
+.link {
+    text-align: center;
+}
+
+.fab, .fas {
+  color: lightgreen;
+  font-size: 100px;
+}
+
+.fa-trademark {
+  font-size: 15px;
+}
+
+div.link-container {
+    margin: 0 auto;
+    border-style: dashed;
+    width: 95%;
+}
+
+div.nav-container {
+  border-style: solid;
+  border-left-color: black;
+  border-right-color: black;
+  border-bottom-color: #ffdbff;
+  border-top-color: #de9ffa;
+  background-color: black;
+  z-index: 1;
+}
+
+.col.background {
+    background-color: black;
+    color: white;
+    border-color: white;
+    border: solid;
+}
+
+div.btn-group {
+  padding: 0.5%;
+}
+
+.top-container {
+  padding: 20%;
+}
+
+div.info-container {
+  padding-top: 2%;
+}
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+h3.text-center {
+  margin: 0 auto;
+}
+
+body {
+  background: url(../img/34821.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+}
+
+/*
+  Neon Title by Thomas Trinca
+*/
+
+@font-face {
+  font-family: neon;
+  src: url(../fonts/neon.ttf);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  h4.command {
+      font-size: 15px;
+  }
+}
+
+.nav-container .row {
+    margin: auto;
+    width: 100%;
+}
+
+.neon h1 {
+  font-family: neon;
+  color: #FB4264;
+  font-size: 9vw;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #F40A35;
+}
+
+.flux h1 {
+  font-family: neon;
+  color: #426DFB;
+  font-size: 9vw;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #2356FF;
+}
+
+.neon h1 {
+  animation: neon 1s ease infinite;
+  -moz-animation: neon 1s ease infinite;
+  -webkit-animation: neon 1s ease infinite;
+}
+
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914;
+  }
+}
+
+.flux h1 {
+  animation: flux 2s linear infinite;
+  -moz-animation: flux 2s linear infinite;
+  -webkit-animation: flux 2s linear infinite;
+  -o-animation: flux 2s linear infinite;
+}
+
+@keyframes flux {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+    color: #28D7FE;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+    color: #146C80;
+  }
+}
+
+@-webkit-keyframes blink {
+/*  from {opacity: 1;}
+  to {opacity: 0;}*/
+  0% {opacity: 1;}
+  25% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 0;}
+}
+@-moz-keyframes blink {
+/*  from {opacity: 1;}
+  to {opacity: 0;}*/
+  0% {opacity: 1;}
+  25% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 0;}
+}
+@-o-keyframes blink {
+/*  from {opacity: 1;}
+  to {opacity: 0;}*/
+  0% {opacity: 1;}
+  25% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 0;}
+}
+@keyframes blink {
+/*  from {opacity: 1;}
+  to {opacity: 0;}*/
+  0% {opacity: 1;}
+  25% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 0;}
+}
