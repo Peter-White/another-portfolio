@@ -1,3 +1,5 @@
+@import "./period.css";
+
 body {
   margin: 0px;
   padding: 0px;
@@ -141,6 +143,11 @@ div.history-container .row {
 
 div.link-container {
     border-style: dashed;
+}
+
+div.container.link-container h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 div.nav-container {

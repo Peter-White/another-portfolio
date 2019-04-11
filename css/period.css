@@ -1,0 +1,30 @@
+@keyframes wink1 {
+  0% {opacity: 0;}
+  25% {opacity: 1;}
+}
+@keyframes wink2 {
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+}
+@keyframes wink3 {
+  0% {opacity: 0;}
+  75% {opacity: 1;}
+}
+
+span.period1 {
+  animation-name: wink1;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+span.period2 {
+  animation-name: wink2;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+span.period3 {
+  animation-name: wink3;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
