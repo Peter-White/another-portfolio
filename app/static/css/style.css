@@ -98,6 +98,18 @@ div#dosBoxx {
   width: 100%;
 }
 
+span#basic-addon3 {
+  color: lightgreen;
+  background: rgb(0, 10, 0);
+  border-color: rgb(0, 10, 0);
+}
+
+input#basic-url {
+  color: lightgreen;
+  background: rgb(0, 10, 0);
+  border-color: rgb(0, 10, 0);
+}
+
 div.link {
   text-align: center;
 }
