@@ -98,13 +98,14 @@ div#dosBoxx {
   width: 100%;
 }
 
-span#basic-addon3 {
+span#path {
   color: lightgreen;
   background: rgb(0, 10, 0);
   border-color: rgb(0, 10, 0);
+  padding: 0;
 }
 
-input#basic-url {
+input#command-input {
   color: lightgreen;
   background: rgb(0, 10, 0);
   border-color: rgb(0, 10, 0);
