@@ -1,5 +1,7 @@
 from app import app, db, login
-from flask import render_template, url_for, redirect
+from flask import render_template, url_for, redirect, flash
+from app.models import User
+from flask_login import current_user, login_user, logout_user, login_required
 
 # create route for index page, render index.html file
 @app.route('/')
